@@ -203,3 +203,81 @@ nav {
     transform: translate(-50%,-50%);
     color: #fff;
 }
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    text-align: center;
+    display: block;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+/*--------------about msg----------*/
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+/*-------footer-------*/
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20PX 0;
+}
+.footer P{
+    padding-bottom: 15px;
+}
+.active{
+    position: relative;
+}
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+    height: 2px;
+
+}
+
+/*--------listing page-----*/
+.navbar-white{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar-white .nav-links a{
+    color: #000;
+
+}
+.navbar-white .register-btn {
+    background: #ff5361;
+    color: #fff;
+}
+nav.navbar-white .fa-bars{
+    color: #000;
+}
